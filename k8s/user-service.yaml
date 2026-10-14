@@ -93,10 +93,10 @@ spec:
           resources:
             limits:
               cpu: "500m"
-              memory: "1Gi"
+              memory: "768Mi"
             requests:
               cpu: "200m"
-              memory: "512Mi"
+              memory: "256Mi"
           env:
             - name: SPRING_DATASOURCE_URL
               value: "jdbc:postgresql://user-db:5432/user-service-db"

@@ -24,10 +24,10 @@ spec:
           resources:
             limits:
               cpu: "500m"
-              memory: "1Gi"
+              memory: "768Mi"
             requests:
               cpu: "200m"
-              memory: "512Mi"
+              memory: "256Mi"
           env:
             - name: JWT_SECRET
               valueFrom:
